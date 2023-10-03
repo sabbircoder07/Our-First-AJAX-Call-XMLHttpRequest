@@ -7,7 +7,7 @@ const totalCountry = document.querySelector('.total__country');
 ///////////////////////////////////////
 
 // All Country information on restcountries API to Callback Hell
-/*
+
 const renderCountry = function (data, className = '') {
   totalCountry.textContent = `Toatal County: ${data.length}`;
   if (data.length === 0) return;
@@ -53,4 +53,3 @@ const getCountryDataAndNaibur = function () {
 };
 
 getCountryDataAndNaibur();
-*/
